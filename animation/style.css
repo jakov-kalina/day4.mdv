@@ -1,0 +1,25 @@
+p{
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+  animation-timing-function: Out-Quadratic;
+}
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+    width: 100%;
+    background: green;
+  }
+
+  50% {
+    margin-left: 110%;
+    width: 100%;
+    background: red;
+  }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+    background: green;
+  }
+}
